@@ -74,6 +74,27 @@ public class CreateAccountActivity extends AppCompatActivity {
                     }
                 });
         alertDialog.show();
+
+//        AlertDialog.Builder builder = new AlertDialog.Builder(CreateAccountActivity.this);
+//        builder.setTitle("Xác nhận thoát");
+//        builder.setIcon(android.R.drawable.ic_dialog_info);
+//        builder.setMessage("Bạn chắc chắn muốn đóng ứng dụng?");
+//        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialogInterface, int i) {
+//                finish();
+//            }
+//        });
+//        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialogInterface, int i) {
+//                dialogInterface.dismiss();
+//            }
+//        });
+//        AlertDialog dialog = builder.create();
+//        dialog.show();
+
+
     }
 
 }

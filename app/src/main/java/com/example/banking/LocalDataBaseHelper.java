@@ -22,7 +22,7 @@ public class LocalDataBaseHelper  {
         "CARDNUMBER VARCHAR);";
     public LocalDataBaseHelper(Context c){
         this.context = c ;
-        this.db = context.openOrCreateDatabase("mydb", context.MODE_PRIVATE, null);
+        this.db = context.openOrCreateDatabase("mydb", Context.MODE_PRIVATE, null);
         this.db.execSQL(CREATE_USER_TABLE);
         this.db.close();
     }
